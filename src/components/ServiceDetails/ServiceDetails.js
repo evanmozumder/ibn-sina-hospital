@@ -8,8 +8,6 @@ const ServiceDetails = (props) => {
   const { services } = useAuth();
   const { serviceId } = useParams();
   const details = services.find((service) => service.id == serviceId);
-  console.log("details", details);
-  console.log("services from details", services);
   return (
     <div className="">
       <h3>Details of {serviceId}</h3>
@@ -17,7 +15,7 @@ const ServiceDetails = (props) => {
         <Card.Img variant="top" src={details?.img} />
         <Card.Body>
           <Card.Title>{details?.name}</Card.Title>
-          <Card.Text>{details?.description}</Card.Text>
+          <Card.Text>{details?.descrption}</Card.Text>
           <Link to="/services">
             <Button variant="primary">All Services</Button>
           </Link>

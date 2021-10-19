@@ -15,7 +15,7 @@ const Home = () => {
       <div className="container mt-5">
         <div className="row ">
           {main_services.map((service) => (
-            <Service service={service}></Service>
+            <Service service={service} key={service.id}></Service>
           ))}
         </div>
       </div>

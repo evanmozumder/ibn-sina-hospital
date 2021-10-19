@@ -8,7 +8,6 @@ const AuthProvider = ({ children }) => {
   const allContext = useFirebase();
   const { services } = useServices();
   const { contacts } = useConactDetails();
-  console.log("Services from AuthProvider", services);
   const data = {
     allContext,
     services,

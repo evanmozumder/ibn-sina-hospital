@@ -4,7 +4,6 @@ import ContactDetails from "../ContactDetails/ContactDetails";
 
 const ContactUs = () => {
   const { contacts } = useAuth();
-  console.log(contacts);
   return (
     <div className="container mt-3">
       <div className="row">
