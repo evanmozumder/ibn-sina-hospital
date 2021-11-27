@@ -9,6 +9,9 @@ At the early of its commencement, few dedicated social workers of
 Bangladesh came together and had been united with a strong
 determination to serve people of the country, the compatriots.
 
+- Login, Registration System
+- Service Details Page
+- Contacts Info Page
 - One of the best hospital in Bangladesh
 - We have worldclass doctors
 - All of our doctors are highly experienced
